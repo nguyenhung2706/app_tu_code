@@ -1,0 +1,32 @@
+﻿# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables - NEVER PUSH
+.env
+.env.*
+!.env.example
+
+# Git backup
+.git-backup/
+**/.git-backup/
+
+# IDE
+.idea/
+.vscode/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Build
+build/
+coverage/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
